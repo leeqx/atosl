@@ -1,0 +1,2 @@
+CFLAGS+=-I${PWD}/dwarf-20160613/libdwarf
+LDFLAGS += -L${PWD}/dwarf-20160613/libdwarf -lz
